@@ -1,0 +1,42 @@
+# .NET Core
+bin/
+obj/
+out/
+
+# User-specific files
+.idea/
+.vscode/
+.vs/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer XML files
+*.wixpdb
+
+# JetBrains Rider files
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# ASP.NET Core
+wwwroot/
+
+# VS for Mac
+.vscode/
+
+# Rider
+.idea/
+
+# .NET Core Test Results
+TestResults/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
