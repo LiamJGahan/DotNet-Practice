@@ -1,0 +1,6 @@
+@GamesCollection_HostAddress = http://localhost:5142
+
+GET {{GamesCollection_HostAddress}}/games/
+Accept: application/json
+
+###
