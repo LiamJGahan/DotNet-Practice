@@ -1,0 +1,9 @@
+@model List<FlixList.Models.Movie>
+
+<h2>My Movie List</h2>
+<ul>
+    @foreach (var movie in Model)
+    {
+        <li> @movie.Title - @movie.Genre - @movie.AgeRating</li>
+    }
+</ul>

@@ -1,0 +1,23 @@
+@model FlixList.Models.Movie
+
+<h2>Add Movie</h2>
+
+<form method="post">
+    <div>
+        <label for="Title">Title</label>
+        <input type="text" id="Title" name="Title" value="@Model.Title" required />
+    </div>
+    <div>
+        <label for="Genre">Genre</label>
+        <input type="text" id="Genre" name="Genre" value="@Model.Genre" required />
+    </div>
+    <div>
+        <label for="Platform">Platform</label>
+        <input type="text" id="Platform" name="Platform" value="@Model.Platform" required />
+    </div>
+    <div>
+        <label for="AgeRating">Age Rating</label>
+        <input type="number" id="AgeRating" name="AgeRating" value="@Model.AgeRating" required />
+    </div>
+    <button type="submit">Create</button>
+</form>
