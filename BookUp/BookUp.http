@@ -1,0 +1,6 @@
+@BookUp_HostAddress = http://localhost:5199
+
+GET {{BookUp_HostAddress}}/Book/
+Accept: application/json
+
+###
